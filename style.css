@@ -1,11 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap');
+
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Barlow", -apple-system, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 60vh;
   margin: 0;
-  background-color: #f0f0f0;
+  background-color: #f5f7fa;
 }
 
 #content {
@@ -13,10 +15,9 @@ body {
 }
 
 h1 {
-  color: #333;
+  color: #102A43;
 }
 
 #answer {
-  font-size: 2em;
-  margin-top: 20px;
+  font-size: 36px;
 }
